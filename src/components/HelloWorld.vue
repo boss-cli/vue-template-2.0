@@ -19,12 +19,14 @@ export default {
 <style scoped>
 .hello{
   height:100%;
-  width:100%;
+  width:100vw;
   display:flex;
   align-items:center;
   text-align:center
 }
 h1, h2 {
+    width:100vw;
+  text-align: center;
   font-weight: normal;
 }
 ul {
